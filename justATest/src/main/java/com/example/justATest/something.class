@@ -1,0 +1,14 @@
+package com.example.justATest;
+
+import org.springframework.web.bind.annotation.requestMapping
+
+@restController
+@requestMapping('/')
+public static void theController() {
+    
+
+    @getMapping()
+    public string getResponse(){
+        return 'you have just got me started!'
+    }
+}
